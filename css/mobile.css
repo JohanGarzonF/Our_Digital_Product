@@ -1,0 +1,29 @@
+@media (max-width: 600px) {
+
+.products {
+  display: inherit;
+  height: auto;
+}
+
+.product {
+  margin-top: auto;
+}
+
+.content {
+  width: auto;
+  height: auto;
+}
+
+.main_section {
+  padding: 4%;
+}
+
+.home, .mentions{
+  display: inherit;
+}
+
+.home_benefist {
+  width: auto;
+}
+
+}

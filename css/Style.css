@@ -1,0 +1,209 @@
+/* ---------------Variables */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root{
+  /* Tipografía */
+  --normal:12px;
+  /* Espaciado */
+  --space:10px;
+  /* Box shadow */
+  --box:0 0 2px 1px #b8a9a9;
+}
+
+/* ---------------Variables */
+
+
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size:var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+label{
+  font-size: var(--normal);
+}
+
+nav {
+  display: flex;
+  background-color:#7acc2d;
+  padding:var(--space);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left:10px;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+/* -----------          -Main section */
+
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../images/curve.webp");
+  padding: 15%;
+  height: 95px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: 20px;
+  margin-top: -260px;
+}
+
+.content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 2px 1px #e6e5e9;
+    height: 300px;
+    width: 250px;
+  border-radius: 3px;
+}
+
+.image_content {
+  text-align: center;
+}
+
+.main_button {
+  background-color: #7acc2d;
+  width: 100%;
+  padding: var(--space);
+  font-size:var(--normal);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main_button:hover {
+  background-color: #5e9527;
+}
+
+/* -----------                    --Home section */
+
+.home{
+  display: flex;
+  background-color: white;
+  padding: 10%;
+  justify-content:space-around;
+}
+
+.home_benefist {
+  padding: var(--space);
+  height: 250px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.image_home {
+  text-align: center;
+  margin: 0;
+  background-size: cover;
+}
+
+/* ---------------------        ---Mention section */
+.mentions_title {
+  text-align: center;
+  font-size: 20px;
+}
+
+.mentions {
+  padding: 5%;
+  display: flex;
+  margin-bottom: 50px;
+}
+.mention img {
+  width: 100%;
+}
+
+.content_mention{
+  box-shadow: var(--box);
+  border-radius: 5px;
+}
+
+.mention,.text{
+  padding: 10px;
+}
+
+/*------------------------------------venta */
+.container{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.modulo_pago {
+  background-color: white;
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago_img{
+  max-width: 150px;
+  margin: auto;
+  width: 100%;
+}
+
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.modulo_pago input:hover{
+  border:1px solid chartreuse;
+}
+
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+
+ /* ---------------------------------Footer */
+.footer {
+  background-color: #1d1d36;
+  /* height: 40px; */
+  align-items: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.footer img{
+  vertical-align: middle;
+}
+
+.footer div a {
+  text-decoration: none;
+  color:white;
+}
+
